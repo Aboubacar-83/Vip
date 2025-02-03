@@ -40,11 +40,8 @@ class Acceuil extends StatelessWidget {
             ),
             ListTile(
               title: const Text("Acceuil"),
+              leading: const Icon(Icons.home),
               onTap: () {
-                const Icon(
-                  Icons.home,
-                  color: Colors.orange,
-                );
                 Navigator.push(
                     context,
                     MaterialPageRoute(
@@ -54,6 +51,7 @@ class Acceuil extends StatelessWidget {
             ),
             ListTile(
               title: const Text("Stock"),
+              leading: Icon(Icons.shop),
               onTap: () {
                 Navigator.push(
                     context,
@@ -63,6 +61,7 @@ class Acceuil extends StatelessWidget {
               },
             ),
             ListTile(
+              leading: const Icon(Icons.shopping_bag),
               title: const Text("Achat"),
               onTap: () {
                 Navigator.push(
@@ -74,6 +73,7 @@ class Acceuil extends StatelessWidget {
             ),
             ListTile(
               title: const Text("Vente"),
+              leading: const Icon(Icons.shopping_basket_rounded),
               onTap: () {
                 Navigator.push(
                     context,
@@ -84,8 +84,8 @@ class Acceuil extends StatelessWidget {
             ),
             ListTile(
               title: const Text("Commande"),
+              leading: const Icon(Icons.shopping_cart_checkout),
               onTap: () {
-                const Icon(Icons.add_business_outlined);
                 Navigator.push(
                     context,
                     MaterialPageRoute(
@@ -94,11 +94,11 @@ class Acceuil extends StatelessWidget {
               },
             ),
             ListTile(
+              leading: const Icon(Icons.logout),
               title: const Text(
                 "Deconnexion",
               ),
               onTap: () {
-                const Icon(Icons.logout);
                 Navigator.push(
                     context,
                     MaterialPageRoute(
@@ -116,7 +116,7 @@ class Acceuil extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Container(
-                  width: 150,
+                  width: 350,
                   height: 150,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
@@ -128,7 +128,7 @@ class Acceuil extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Container(
-                  width: 150,
+                  width: 350,
                   height: 150,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
@@ -140,7 +140,7 @@ class Acceuil extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Container(
-                  width: 150,
+                  width: 350,
                   height: 150,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
@@ -152,7 +152,7 @@ class Acceuil extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Container(
-                  width: 150,
+                  width: 350,
                   height: 150,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
@@ -164,7 +164,7 @@ class Acceuil extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Container(
-                  width: 150,
+                  width: 350,
                   height: 150,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
@@ -176,7 +176,7 @@ class Acceuil extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Container(
-                  width: 150,
+                  width: 350,
                   height: 150,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
@@ -188,7 +188,7 @@ class Acceuil extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Container(
-                  width: 150,
+                  width: 350,
                   height: 150,
                   decoration: const BoxDecoration(
                       image: DecorationImage(

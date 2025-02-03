@@ -13,6 +13,4 @@ class Tables {
     this.prixDeVente,
     this.date,
   );
-  Tables buildRow(List<String> cells) =>
-      Tables(marque, quantite, prixUnitaire, classe, prixDeVente, date);
 }
